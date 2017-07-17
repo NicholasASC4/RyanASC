@@ -1,0 +1,7 @@
+var myPokemonRoster = [[Lugia > TYPE: 'Physic and Flying' > HP: 106 > ATK: 90 > DEF: 130 > Legend: true]
+[Dragonite > TYPE: 'Dragon and Flying' > HP: 91 > ATK: 134 > DEF: 95 > Legend: false]
+[Arceus > TYPE: 'Normal' > HP: 120 > ATK: 120 > DEF: 120 > Legend: true]
+[Charizard > TYPE: 'Fire and Flying' > HP: 200 > ATK: 120 > DEF: 150 > Legend: false]
+[Greninja > TYPE: 'Water and Dark' > HP: 200 > ATK: 120 > DEF: 150 > Legend: false]
+[Electivire > TYPE: 'Electric' > HP: 200 > ATK: 120 > DEF: 150 > Legend: false]
+]
