@@ -1,0 +1,32 @@
+#top
+{
+    text-align: center;
+}
+
+body
+{
+    background-color: red;
+}
+
+p
+{
+    color:white;
+    max-width: 800px;
+    margin:auto;
+}
+
+h2
+{
+    color:white;
+}
+
+h1
+{
+    color:white;
+}
+
+.chrisPaulInfo
+{
+    border: 10px solid white;
+    margin
+}
