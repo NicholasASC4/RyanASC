@@ -1,0 +1,17 @@
+.jumbotron{
+    text-align: center;
+    background-image: url(http://p1.zdassets.com/hc/theme_assets/70804/4386/2k_support_bg_v3.jpg);
+}
+.jumbotron h1{
+    color:white;
+}
+.jumbotron p{
+    color:white;
+}
+
+li{
+    font-size:40px;
+}
+body {
+    background-image: url(http://p1.zdassets.com/hc/theme_assets/70804/4386/2k_support_bg_v3.jpg);
+}
