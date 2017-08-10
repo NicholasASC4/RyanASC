@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissors</title>
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyBoxbtEVlpfow-nHYXxXaZqQGS5Q17ifhE",
+            authDomain: "highscore-91e95.firebaseapp.com",
+            databaseURL: "https://highscore-91e95.firebaseio.com",
+            projectId: "highscore-91e95",
+            storageBucket: "",
+            messagingSenderId: "1082107288240"
+        };
+        firebase.initializeApp(config);
+
+    </script>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="jumbotron">
+    <h1>Welcome to Rock, Paper, Scissors!</h1>
+    <p>The perfect game to play when you're bored out of your mind</p>
+</div>
+
+<div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="rock">
+                    <button type="button" id="rockbutton"> 
+                        <img src="https://thumb1.shutterstock.com/display_pic_with_logo/1938752/173317940/stock-vector-family-gathering-of-cartoon-vector-rocks-173317940.jpg" class="img-responsive" alt="Responsive image">
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="paper">
+                    <button type="button" id="battlepaper"> 
+                        <img src="http://imageenvision.com/450/26084-clip-art-graphic-of-a-white-copy-and-print-paper-cartoon-character-flexing-his-arm-muscles-by-toons4biz.jpg" class="img-responsive" alt="Responsive image" >
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="scissor">
+                    <button type="button" id="battlescissors"> 
+                        <img src="https://thumb9.shutterstock.com/display_pic_with_logo/708322/708322,1298155513,18/stock-photo-scissors-cartoon-71556766.jpg" class="img-responsive" alt="Responsive image" >
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="text"></div>
+    </div>
+    <div class="container">
+        <div class="jumbotron" id="score">
+
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

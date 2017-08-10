@@ -1,0 +1,14 @@
+
+.jumbotron{
+    text-align: center;
+    background-image: url("https://files.slack.com/files-tmb/T6176LMT3-F6J9MCEPL-b6c6c499a5/background1_360.jpg");
+    background-image: center;  
+    font-family: 'Courgette', cursive;
+}
+
+.thumbnail{
+   text-align: center;
+}
+.container{
+    background-color: grey;
+}

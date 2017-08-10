@@ -1,0 +1,7 @@
+body{ 
+  background: url(https://webloggerz.com/wp-content/uploads/2013/10/imcreator-website-builder.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
