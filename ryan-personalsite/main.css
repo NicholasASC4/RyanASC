@@ -40,7 +40,11 @@ body{
 
 .jumbotron{
     text-align: center;
-    background-color: lightskyblue;
+	margin-bottom: 0px;
+    background-image: url("http://dreamatico.com/data_images/sky/sky-8.jpg");
+    background-position: 0% 25%;
+    background-size: cover;
+    
     font-family: 'Open Sans Condensed', sans-serif;
     color: white;
     width: cover;
